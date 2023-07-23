@@ -1,0 +1,11 @@
+.board {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.status {
+    font-size: 2em;
+    font-weight: 400;
+    font-variant:small-caps;
+}
