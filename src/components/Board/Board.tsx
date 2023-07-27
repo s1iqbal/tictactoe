@@ -71,6 +71,14 @@ export default function Board() {
     <div>
       <div className="status">{status}</div>
       {boards()}
+      <div
+        style={{'paddingTop': '5%'}}
+      ><button onClick={() => {
+        //reset state for board
+        setSquares(Array(9).fill(null));
+        setWinner('');
+        setXIsNext(true);
+      }} style={{'color': 'white', 'backgroundColor': 'red'}}>Reset</button></div>
     </div>
   );
 }

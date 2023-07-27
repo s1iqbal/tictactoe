@@ -1,7 +1,10 @@
 .board {
     display: grid;
     gap: 1px;
-    grid-template-columns: repeat(3, 2fr);
+    min-height: 300px;
+    min-width: 300px;
+    grid-template-columns: repeat(3, 100px);
+    place-items: center;
 }
 
 .status {
