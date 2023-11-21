@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Board />
       <p className="read-the-docs">
-        Tic-tac-toe game made by Sal
+        Tic-tac-toe game made by Saad
       </p>
     </div>
   )
